@@ -1,0 +1,19 @@
+{
+  "name": "auto-service",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "firebase": "^3.6.10",
+    "angularfire": "^2.3.0"
+  }
+}

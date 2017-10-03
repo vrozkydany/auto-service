@@ -1,0 +1,178 @@
+	<header class="isNotHome">
+		<div class="top_line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-sm-5 col-xs-6">
+						<div class="top_addr">
+							<strong>Kyiv</strong>
+							<a href="#!/contact">st. Yangelia 222/222</a>
+						</div>
+					</div>
+					<div class="col-md-2 col-md-5 col-sm-2">
+						<div class="logo_wrap">
+							<a href="#!/" class="logo"><img src="img/top_logo.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-md-5 col-md-5 col-sm-5 col-xs-6">
+						<div class="top_addr ta_right">
+							<strong>+3 (047) <span>391-71-52</span></strong>
+							<a class="fancybox" href="#callback">To Order CallBack</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<nav class="top_mnu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="button small_mnu">
+							<i class="fa fa-bars"></i> Меню
+						</div>
+						<div class="">
+							<ul class="menu">
+								<li class="menu-item main"><a href="#!/">Главная</a></li>
+								<li class="menu-item about"><a href="#!/about">О нас</a></li>
+								<li class="menu-item price"><a href="#!/price">Цены</a></li>
+								<li class="menu-item current-menu-item contacts"><a href="#!/contact">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="services_mnu button">Услуги</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<section id="all-services" class="all-services" style="display:none">
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="works">
+						<li class="repair-1 repair">
+							<div class="item">
+								<a href="#!/case-repair"><span></span><h4>Кузовной ремонт</h4></a>
+							</div>
+						</li>
+						<li class="repair-2 repair">
+							<div class="item">
+								<a href="#!/mechanics-repair"><span></span><h4>Механические работы</h4></a>
+							</div>
+						</li>
+						<li class="repair-3 repair">
+							<div class="item">
+								<a href="#!/express-service"><span></span><h4>Экспресс-услуги</h4></a>
+							</div>
+						</li>
+						<li class="repair-4 repair">
+							<div class="item">
+								<a href="#!/diagnostic"><span></span><h4>Диагностика</h4></a>
+							</div>
+						</li>
+						<li class="repair-5 repair">
+							<div class="item">
+								<a href="#!/multy-working"><span></span><h4>Слесарные работы</h4></a>
+							</div>
+						</li>
+						<li class="repair-6 repair">
+							<div class="item">
+								<a href="#!/plastic-repair"><span></span><h4>Ремонт пластика</h4></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>КОНТАКТЫ</h2>
+                    
+                </div>
+			</div>
+        </div>
+        <container >
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="flex" id="map-content">
+                        <div itemscope itemtype="http://schema.org/LocalBusiness">
+                            <div class="title">
+                                <a href="/" itemprop="url"><span class="contacts-name" itemprop="name">Auto Service</span></a>
+                            </div>
+                            <meta content="https://www.facebook.com" itemprop="sameAs">
+                            <meta content="https://plus.google.com" itemprop="sameAs">
+                            <meta content="50.382412" itemprop="latitude">
+                            <meta content="30.4776772" itemprop="longitude">
+                            <div class="block-thinner" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <div class="index" itemprop="postalCode">
+                                    02000
+                                </div>
+                                <div class="address">
+                                    <span itemprop="addressLocality">Киев</span>
+                                </div>
+                            </div>
+                            <div class="block-thinner">
+                                Станция метро «Выставковый центр»
+                            </div>
+                            <div class="block-thinner">
+                                <div class="email">
+                                    email: <a href="mailto:auto.service.kiev@gmail.com"><span itemprop="email">auto.service.kiev@gmail.com</span></a>
+                                </div>
+                            </div>
+                            <div class="phones block-thinner">
+                                <div class="phone">
+                                    <a href="tel:+380938008874"><span itemprop="telephone">(093) 800-88-74</span></a>
+                                </div>
+                            </div>
+                            <meta content="Mo-Fr 09:00-20:00" itemprop="openingHours">
+                            <meta content="Sa, Su 11:00-18:00" itemprop="openingHours">
+                            <div class="workhours block-thinner">
+                                <div class="workhours-title">
+                                    Время работы:
+                                </div>
+                                <div>
+                                    Пн-Пт: <time>9<sup>00</sup>–20<sup>00</sup></time><br>
+                                    Сб-Вс: <time>11<sup>00</sup>–18<sup>00</sup></time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</container>
+		<div class="map" id="map">
+			<script>
+				// function initMap() {
+					var centerLatLng = new google.maps.LatLng(50.382412, 30.4776772);
+			
+					var mapOptions = {
+					center: centerLatLng, // Координаты центра мы берем из переменной centerLatLng
+					zoom: 15,
+					scrollwheel: false              // Зум по умолчанию. Возможные значения от 0 до 21
+					};
+			
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					var marker = new google.maps.Marker({
+					position: centerLatLng,
+					map: map,
+					title: "Auto Service",
+					icon: ""
+					});
+					marker.addListener('click', toggleBounce);
+					function toggleBounce() {
+					if (marker.getAnimation() !== null) {
+						marker.setAnimation(null);
+					} else {
+						marker.setAnimation(google.maps.Animation.BOUNCE);
+					}
+					}
+				// }
+			</script>
+        </div>
+	</section>
